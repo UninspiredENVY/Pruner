@@ -36,21 +36,21 @@ DISCORD_WEBHOOK="https://discord.com/api/webhooks/REPLACE_ME"
 
 ## How It Works
 
-Scans the target directory (top level only)
+1. Scans the target directory (top level only)
 
-Sorts items by modified time (newest first)
+2. Sorts items by modified time (newest first)
 
-Keeps the newest KEEP_COUNT items
+3. Keeps the newest `KEEP_COUNT` items
 
-Deletes the rest
+4. Deletes the rest
 
-Sends a Discord message with:
+5. Sends a Discord message with:
 
-Items pruned
+  - Items pruned
 
-Total runtime
+  - Total runtime
 
-Status (Success / Failed)
+  - Status (Success / Failed)
 
 ## Example Discord Message
 ```
