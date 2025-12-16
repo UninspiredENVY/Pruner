@@ -34,3 +34,20 @@ DISCORD_WEBHOOK="https://discord.com/api/webhooks/REPLACE_ME"
 | `DRY_RUN`         | `true` = no deletions, preview only |
 | `DISCORD_WEBHOOK` | Discord webhook URL (optional)      |
 
+How It Works
+
+Scans the target directory (top level only)
+
+Sorts items by modified time (newest first)
+
+Keeps the newest KEEP_COUNT items
+
+Deletes the rest
+
+Sends a Discord message with:
+
+Items pruned
+
+Total runtime
+
+Status (Success / Failed)
