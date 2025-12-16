@@ -67,11 +67,11 @@ Status: SUCCESS
 
 - Ideal for:
 
-        - Backup folders
+    - Backup folders
 
-        - Timestamped directories
+    - Timestamped directories
 
-        - Cleanup jobs
+    - Cleanup jobs
 
 - Schedule via Unraid User Scripts (Daily / Weekly / Custom cron)
 
