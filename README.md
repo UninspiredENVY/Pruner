@@ -63,7 +63,7 @@ Status: SUCCESS
 ```
 ## Recommended Usage
 
-Test first with DRY_RUN=true
+Test first with `DRY_RUN=true`
 
 Ideal for:
 
@@ -81,6 +81,6 @@ Only prunes direct children of the target directory
 
 Does not recurse into subfolders
 
-Uses standard Linux tools (find, rm)
+Uses standard Linux tools (`find`, `rm`)
 
 Safe guards prevent accidental deletion of /
