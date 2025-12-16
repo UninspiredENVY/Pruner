@@ -27,4 +27,10 @@ KEEP_COUNT=7
 DRY_RUN=true
 DISCORD_WEBHOOK="https://discord.com/api/webhooks/REPLACE_ME"
 ```
+| Variable          | Description                         |
+| ----------------- | ----------------------------------- |
+| `TARGET_DIR`      | Folder to prune                     |
+| `KEEP_COUNT`      | Number of newest items to keep      |
+| `DRY_RUN`         | `true` = no deletions, preview only |
+| `DISCORD_WEBHOOK` | Discord webhook URL (optional)      |
 
