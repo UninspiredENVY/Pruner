@@ -46,11 +46,11 @@ DISCORD_WEBHOOK="https://discord.com/api/webhooks/REPLACE_ME"
 
 5. Sends a Discord message with:
 
-  - Items pruned
+    - Items pruned
 
-  - Total runtime
+    - Total runtime
 
-  - Status (Success / Failed)
+    - Status (Success / Failed)
 
 ## Example Discord Message
 ```
