@@ -34,7 +34,7 @@ DISCORD_WEBHOOK="https://discord.com/api/webhooks/REPLACE_ME"
 | `DRY_RUN`         | `true` = no deletions, preview only |
 | `DISCORD_WEBHOOK` | Discord webhook URL (optional)      |
 
-How It Works
+## How It Works
 
 Scans the target directory (top level only)
 
@@ -51,3 +51,36 @@ Items pruned
 Total runtime
 
 Status (Success / Failed)
+
+## Example Discord Message
+```
+🧹 Prune Completed (LIVE)
+Target: /mnt/user/backups/MyBackups
+Kept: 7
+Pruned: 5 item(s)
+Total time: 12s
+Status: SUCCESS
+```
+## Recommended Usage
+
+Test first with DRY_RUN=true
+
+Ideal for:
+
+Backup folders
+
+Timestamped directories
+
+Cleanup jobs
+
+Schedule via Unraid User Scripts (Daily / Weekly / Custom cron)
+
+## Notes
+
+Only prunes direct children of the target directory
+
+Does not recurse into subfolders
+
+Uses standard Linux tools (find, rm)
+
+Safe guards prevent accidental deletion of /
