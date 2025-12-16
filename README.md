@@ -63,24 +63,24 @@ Status: SUCCESS
 ```
 ## Recommended Usage
 
-Test first with `DRY_RUN=true`
+- Test first with `DRY_RUN=true`
 
-Ideal for:
+- Ideal for:
 
-Backup folders
+        - Backup folders
 
-Timestamped directories
+        - Timestamped directories
 
-Cleanup jobs
+        - Cleanup jobs
 
-Schedule via Unraid User Scripts (Daily / Weekly / Custom cron)
+- Schedule via Unraid User Scripts (Daily / Weekly / Custom cron)
 
 ## Notes
 
-Only prunes direct children of the target directory
+- Only prunes direct children of the target directory
 
-Does not recurse into subfolders
+- Does not recurse into subfolders
 
-Uses standard Linux tools (`find`, `rm`)
+- Uses standard Linux tools (`find`, `rm`)
 
-Safe guards prevent accidental deletion of /
+- Safe guards prevent accidental deletion of /
